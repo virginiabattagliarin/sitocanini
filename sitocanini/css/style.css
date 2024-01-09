@@ -1,0 +1,45 @@
+body { margin: 0px; font-family: 'Roboto Slab', serif; }
+header { background-color: blue;
+	    color: white; 
+	    text-align: center;
+	    padding: 5% 5% 0px 5%;
+	}
+
+.whitelink { text-decoration: none; color: white; }
+
+nav { margin: 0px auto }
+
+nav ul li { list-style-type: none; padding-left: 0px !important }
+
+nav ul li { 
+	display: inline-block; 
+	/*background-color: white;*/
+    padding: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	text-transform: uppercase; }
+
+h1 { text-align: center;
+     margin: 0px auto; }
+
+#homeimage {max-width: 60%;
+	       display: block;
+	       margin: 0 auto;
+	       opacity: 0.5;
+	       transition: opacity .25s ease-in-out;}
+
+#homeimage:hover { opacity: 1; }
+
+#homeicon {font-size: 3em}
+
+.active {background-color: white;}
+
+li.active a {color: blue;}
+
+#luciodalla {padding: 50p; 
+	         display: block;
+	         margin: 0 auto;}
+ 
+ .morepadding {padding: 1em 15%;}
+
+h1 {padding-bottom: 50px}
